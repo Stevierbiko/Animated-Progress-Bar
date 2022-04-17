@@ -1,0 +1,86 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 100%;
+  height: 100vh;
+  background: black;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.skills h2{
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-top: 40px;
+  margin-bottom: 5px;
+  color: #fff;
+  font-size: 15px;
+}
+.progress-bar{
+  background: #959595;
+  width: 600px;
+  height: 10px;
+  border-radius: 5px;
+}
+.progress-bar div{
+  height: 10px;
+  border-radius: 5px;
+  /* width: 50%; */
+  /* background: red; */
+}
+.progress-bar div span{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background: #000;
+  float: right;
+  margin-top: -15px;
+  margin-bottom: -20px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.html{
+  background: cyan;
+  width: 95%;
+}
+.html span{
+  border: 1px solid cyan;
+}
+.js{
+  background: #fa520f;
+  width: 70%;
+}
+.js span{
+  border: 1px solid #fa510f;
+}
+
+.css{
+  background: pink;
+  width: 90%;
+}
+.css span{
+  border: 1px solid pink;
+}
+
+.py{
+  background: yellow;
+  width: 20%;
+}
+.py span{
+  border: 1px solid yellow;
+}
+
+.react{
+  background: greenyellow;
+  width: 40%;
+}
+.react span{
+  border: 1px solid greenyellow;
+}
+
